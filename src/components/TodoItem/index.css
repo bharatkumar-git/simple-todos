@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button {
+  border: 2px #ff0b37 solid;
+  color: #ff0b37;
+  padding: 4px;
+  cursor: pointer;
+  width: 80px;
+  height: 30px;
+  background-color: white;
+  border-radius: 8px;
+}

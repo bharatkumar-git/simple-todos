@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.main-container {
+  min-height: 100vh;
+  background-color: #ffc2a0;
+  display: flex;
+  justify-content: center;
+  padding-block: 40px;
+  /* align-items: center; */
+}
+.content-container {
+  width: 90%;
+  max-width: 900px;
+  border-radius: 8px;
+  background-color: white;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.simple-heading {
+  color: #ff8542;
+  font-family: 'Roboto';
+  /* text-align: center; */
+}
+.list-container {
+  list-style-type: none;
+  padding: 0px;
+  width: 80%;
+  height: 100%;
+  overflow: auto;
+}
