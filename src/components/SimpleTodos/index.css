@@ -22,10 +22,31 @@
   font-family: 'Roboto';
   /* text-align: center; */
 }
+.todo-input-container {
+  display: flex;
+  gap: 8px;
+}
+.todo-input-element {
+  width: 300px;
+  height: 28px;
+  outline: none;
+  padding-left: 8px;
+  /* border: none; */
+}
+.todo-add-button {
+  border: 2px green solid;
+  color: green;
+  padding: 4px;
+  cursor: pointer;
+  width: 80px;
+  height: 28px;
+  background-color: white;
+  border-radius: 8px;
+}
 .list-container {
   list-style-type: none;
   padding: 0px;
-  width: 80%;
+  width: 90%;
   height: 100%;
   overflow: auto;
 }
